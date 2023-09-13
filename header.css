@@ -1,0 +1,249 @@
+body{
+    margin:0%;
+}
+.flex-container1{
+    padding:px;
+    background-color: #f4f5f8;
+    display: flex;
+    justify-content: flex-end;
+    width:100%;
+    height:30px;
+    margin: 0%;
+}
+.item1,.item2{
+    font-size: 11px;
+    font-family: 'Lato', 'Noto Sans JP', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    align-items: center;
+    font-weight: bold;
+    box-sizing:inherit;
+}
+.item1:hover{
+    cursor:pointer;
+    text-decoration: underline;
+
+}
+.item2:hover{
+    cursor:pointer;
+    text-decoration: underline;
+}
+.item1{
+    color:black;
+    height:10px;
+    margin:10px;
+    margin-top: 6px;
+    margin-right: 50px;
+}
+.item2{
+    color:black;
+    height:10px;
+    margin: 10px;
+    margin-top:6px;
+    margin-right: 50px;    
+}
+.flex-container2{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.headericon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.headeroption{
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+
+}
+li{
+    font-size: 11px;
+    font-weight: bold;
+    font-family: 'Lato', 'Noto Sans JP', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    float:left;
+    padding-top: 18px;
+    padding-left: 18.120px;
+    padding-right:18.120px;
+}
+li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.new-arrival,.pickup-txt,.pro-txt{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bolder;
+    font-size: 2pc;
+    line-height: 1.6;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    padding:20px 40px 40px;
+    margin-left:55px;
+    box-sizing: inherit;
+}
+.square-casio{
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: lighter;
+}
+.square-mdv{
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    margin:4px 0px 0px;
+}
+.square-mrp{
+    font-size: 8px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.square-price{
+    font-size: 14px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.square-casio,.square-mdv,.square-mrp,.square-price{
+    padding:1px 45px 0px;
+    
+}
+.learnmore{
+    box-sizing:border-box;
+    margin-top:40px;
+    display:flex;
+    justify-content: center;
+}
+.learn-more{
+    background-color: black;
+    padding-left: 90px;
+    padding-right:90px;
+    height:40px;
+}
+.learn-more:hover{
+    cursor:pointer;
+    opacity:0.7 ;
+}
+.learnmore-txt{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size:14px;
+    font-weight: lighter;
+    color:white;
+}
+.pickup-define,.pro-define{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-left: 20px; 
+    font-size: 14px;  
+}
+.Ga{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-left: 20px;
+    font-size:10px;
+}
+.horizontal-line1{
+    margin-top: 60px;
+    margin-left:116px;
+    width:500px;
+    background-color:grey;
+    height:1.5px;
+}
+
+.horizontal-line1:hover{
+    background-color: black;
+    cursor:pointer;
+}
+.home>p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+    margin-left:116px;
+    display:flex;
+    margin-top: 80px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f5f8;
+}
+.line1{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top:40px;
+    color:black;
+}
+.line2{
+    font-size:12px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: row;
+    color:#5A5A5A;
+    justify-content: space-evenly;
+    margin-left: -15px;
+}
+.line2:hover{
+    cursor:pointer;
+}
+.footer-sub{
+    display:flex;
+    justify-content:flex-start;
+    padding-left:50px;
+
+}
+.footer-sub-1{
+    display: flex;
+    padding-top:10px;
+ 
+}
+.footer-sub-1>ul{
+    list-style-type: none;
+}
+.footer-sub-1>ul>li{
+    width: 10px ;
+}
+ul{
+    display: flex;
+}
+.footer-sub-2>ul{
+    list-style-type: none;
+}
+.sub-ofsub2{
+    padding-left:115px ;
+    margin-top: -10px;
+}
+.sub-ofsub2>p{
+    font-size: 9px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.footer-sub-2{
+   display: flex;
+   justify-content: space-between;
+   padding-left: 55px;
+   margin-top: -40px;
+}
+.footer-sub-2:hover{
+    cursor:pointer;
+    text-decoration: none;
+}
+.last-sub{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family:'Noto Sans JP', sans-serif;
+    font-size:14px;
+    font-weight: bolder;
+    padding-left:66px;
+    padding-bottom: 45px;
+}
+.click-here{
+    cursor: pointer;
+}
+
+
+

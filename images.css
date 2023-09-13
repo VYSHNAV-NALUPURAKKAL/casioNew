@@ -1,0 +1,86 @@
+.logopic{
+    width:95.144px;
+    padding-top: 32px;
+    padding-left:35px;
+}
+.search{
+   height:16.994px;
+}
+
+.love{
+    height:16.994px;
+    padding-right: 45px;
+    padding-left:12px;
+}
+.input-class{
+   border:none;
+   border-bottom: 0.1px solid black;
+}
+.Main-Image{
+    display:flex;
+    flex-direction: column;
+}
+.image-1,.image-2,.image-3,.image-4{
+    position: relative;
+    margin-top:0%;
+    overflow:hidden ;
+    width:100%;
+}
+
+.squarecontainer1{
+    cursor: pointer;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.squarecontainer-1{
+    display: block;
+   flex-direction: row;
+   transition: none;
+ 
+}
+.squarecontainer-1:hover{
+    border: 1px solid black; 
+}
+.square1{
+  
+    width:218.5px ;
+    padding:10px 20px;
+}
+.squarecontainer2,.squarecontainer3{
+    margin:-45px 56px 0px 56px;
+    padding-top:10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    overflow: hidden;
+}
+.squarecontainer-2{
+overflow: hidden;
+}
+.squarecontainer2:hover,.squarecontainer3:hover{
+    cursor:pointer;
+    border:none;
+}
+.pick{
+    display:flex;
+    height: 281.5px;
+    width:281.5px ;  
+    padding:0px 20px;
+    overflow: hidden;
+    filter:grayscale(.4);
+    transition:.2s ease-in-out;
+}
+.pick:hover{
+    filter:grayscale(0);
+   transform: scale(1.1);
+}
+.pro-image{
+    width:218.5px ;
+    padding:10px 20px;
+}
+.footer-sub-icon{
+    height:30px;
+    width:30px;
+}
